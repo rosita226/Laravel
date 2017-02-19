@@ -1,0 +1,19 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+	</head>
+	<body>
+<header>
+ 	@include('tamplates.header') 
+</header>
+ <nav>
+</nav>
+	<article>
+		@yield('content')
+	</article>
+<footer>
+@include('tamplates.footer')
+</footer>
+</div>
+</body>
+</html>
